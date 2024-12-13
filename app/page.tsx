@@ -86,7 +86,7 @@ export default function Portfolio() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.3, ease:"easeInOut" }}
           >
-            Hi, I'm Vedant
+            Hi I&apos; m Vedant
           </motion.h2>
           <motion.p 
             className="text-xl mb-8"
@@ -220,7 +220,7 @@ export default function Portfolio() {
           <h2 className="text-3xl font-bold mb-8 text-center">Get in Touch</h2>
           <Card className="bg-white/90 dark:bg-gray-800/90">
             <CardContent className="p-6">
-              <p className="text-center mb-4">Interested in collaborating or have a project in mind? Let's connect!</p>
+              <p className="text-center mb-4">Interested in collaborating or have a project in mind? Let &apos; s connect!</p>
               <motion.div 
                 className="flex justify-center space-x-4"
                 variants={stagger}
